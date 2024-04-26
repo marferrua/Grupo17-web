@@ -1,0 +1,117 @@
+*{
+   padding: 0%;
+   margin: 0%;
+}
+
+nav{
+    background-color: #333;
+    display: flex;
+    text-align: center;
+justify-content: space-between;
+}
+
+h1{
+    width: 2.5vw;
+}
+.logo{
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 5px;
+width: 5%;
+height: 100%;
+  color: rgb(252, 248, 1);
+}
+.listas{
+    gap: 5px;;
+
+    height: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    align-items: center;
+    font-size: 2.3vw;
+    list-style-type: none;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-flex;
+
+}
+.alfa{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(237, 253, 13);
+   
+}
+
+.logoico{
+    
+}
+
+
+main{
+    background:url(imagenes/seis-libros-arriba.jpg);
+    background-size: cover;
+}
+
+.contenedor{
+    margin: 10px;
+    gap: 5px;
+    display: inline-flex;
+ 
+}
+.cards{
+    padding: 9px;
+}
+    img{
+        width: 100%;
+
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .column {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .main-column {
+        flex-grow: 2;
+    }
+    
+    .column.main-column img {
+        width: 100px; 
+        height: auto; 
+    }
+    
+    .social-icons {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    
+    .social-icons li:last-child {
+        margin-right: 0;
+    }
+    
+    .social-icons a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }

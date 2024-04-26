@@ -1,2 +1,1 @@
-# Grupo17-web
-Primer entrega proyecto grupal
+# grupo17-proyecto-web
